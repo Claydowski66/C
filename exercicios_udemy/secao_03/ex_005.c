@@ -3,8 +3,7 @@
 #include <stdio.h>
 
 int main(){
-    float number;
-    float fifth_part;
+    float number, fifth_part;
 
     printf("Enter a number: ");
     scanf("%f", &number);
