@@ -3,8 +3,7 @@
 #include <stdio.h>
 
 int main(){
-    float number;
-    float square;
+    float number, square;
 
     printf("Enter a number: ");
     scanf("%f", &number);
