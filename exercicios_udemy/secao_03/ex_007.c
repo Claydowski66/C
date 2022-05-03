@@ -1,15 +1,14 @@
-//Leia uma temperatura em graus Fahrenheit e apresente-a convertida em graus Celsius.
+//Read a temperature in degrees Fahrenheit and show it converted in degrees Celsius.
 
 #include <stdio.h>
 
 int main(){
-    float fahrenheit;
-    float celsius;
+    float fahrenheit, celsius;
 
-    printf("Digite um valor em graus Fahrenheit: ");
+    printf("Enter a value in Fahrenheit: ");
     scanf("%f", &fahrenheit);
 
     celsius = 5 * (fahrenheit - 32) / 9;
 
-    printf("%f graus Fahrenheit equivalem a %f graus Celsius.", fahrenheit, celsius);
+    printf("%f degrees Fahrenheit is equivalent to %f degrees Celsius.", fahrenheit, celsius);
 }
