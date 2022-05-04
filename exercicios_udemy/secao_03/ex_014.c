@@ -1,4 +1,4 @@
-//Read a angle in degrees and show it converted to radians.
+//Read an angle in degrees and show it converted to radians.
 
 #include <stdio.h>
 
