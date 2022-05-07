@@ -1,4 +1,4 @@
-//Read a leght value in meters and show it converted to yards.
+//Read a lenght value in meters and show it converted to yards.
 
 #include <stdio.h>
 
@@ -10,5 +10,5 @@ int main(){
 
     yards = meters / 0.9144;
 
-    printf("A leght of %fm equals to %fyd.", meters, yards);
+    printf("A lenght of %fm equals to %fyd.", meters, yards);
 }
