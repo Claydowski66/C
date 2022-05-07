@@ -1,4 +1,4 @@
-//Read a leght value in centimeters and show it converted in inches.
+//Read a lenght value in centimeters and show it converted in inches.
 
 #include <stdio.h>
 
@@ -10,5 +10,5 @@ int main(){
 
     inches = centimeters / 2.54;
 
-    printf("%f centimeters leght equals %f inches", centimeters, inches);
+    printf("%f centimeters lenght equals %f inches", centimeters, inches);
 }
