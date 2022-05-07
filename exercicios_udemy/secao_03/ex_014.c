@@ -8,7 +8,7 @@ int main(){
     printf("Enter a value in degrees: ");
     scanf("%f", &degrees);
 
-    radians = degrees * 3.141592 / 180;
+    radians = degrees * 3.14159265358979323846 / 180;
 
     printf("%f degrees angle is equivalent to %f radians.", degrees, radians);
 }
