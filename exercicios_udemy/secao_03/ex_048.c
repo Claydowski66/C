@@ -13,5 +13,5 @@ int main(){
     minutes = floor((total_seconds - (hours * 3600)) / 60);
     seconds = (total_seconds - (hours * 3600) - (minutes * 60));
 
-    printf("%d seconds is equal to: %d:%d:%02d", total_seconds, hours, minutes, seconds);
+    printf("%d seconds equals to: %d:%d:%02d", total_seconds, hours, minutes, seconds);
 }
