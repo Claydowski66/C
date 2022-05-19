@@ -17,8 +17,12 @@ int main()
     {
         printf("The value %d is greater than %d.", value2, value1);
     }
-    else
+    else if (value1 == value2)
     {
         printf("Both values are the same.");
+    }
+    else
+    {
+        printf("invalid input");
     }
 }
