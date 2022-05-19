@@ -7,15 +7,15 @@ print a messege saying that it is an invalid number.*/
 
 int main()
 {
-    float number;
+    int number;
 
     printf("Enter a number: ");
-    scanf("%f", &number);
+    scanf("%d", &number);
 
     if(number >= 0)
     {
         float square_root = sqrt(number);
-        printf("The square root of %.2f is: %.2f", number, square_root);
+        printf("The square root of %d is: %.2f", number, square_root);
     }
     else
     {
