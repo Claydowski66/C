@@ -1,1 +1,1 @@
-Teste para remote do GIT.
+Repositório para estudos, anotações e resoluções de exercícios.
