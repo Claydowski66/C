@@ -3,6 +3,8 @@
  Avaliação Semestral: 3; Exame Final: 5. De acordo com o resultado, mostre na tela se o aluno está reprovado (média entre 0 e 2,9), de recuperação (entre 3 e 4,9)
  ou se foi aprovado. Faça todas as verificações necessárias.*/
 
+#include <stdio.h>
+
 int main()
 {
     float trabalho_laboratorio, avaliacao_semestral, exame_final;
