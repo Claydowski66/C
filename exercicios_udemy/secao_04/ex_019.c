@@ -25,6 +25,6 @@ int main(){
         printf("O número %d é divisível tanto por 3 quanto por 5.", escolha);
     }
     else{
-        printf("O nnúmero %d não é divisível por 3 e nem por 5.", escolha);
+        printf("O número %d não é divisível por 3 e nem por 5.", escolha);
     }
 }
