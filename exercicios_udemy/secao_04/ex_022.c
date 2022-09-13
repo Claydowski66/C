@@ -20,9 +20,11 @@ int main(){
     scanf("%d", &tempo_de_servico);
 
     if((idade >= 60 && tempo_de_servico >= 25) || (idade >= 65) || (tempo_de_servico >= 30)){
-        printf("Você já pode se aposentar.");
+        printf("Você já pode se aposentar.\n");
     }
     else{
-        printf("Você ainda não pode se aposentar");
+        printf("Você ainda não pode se aposentar\n");
     }
+
+    system("pause");
 }
