@@ -85,7 +85,7 @@ int main(){
         break;
 
     default:
-        printf("Essão não é uma opção válida.\n");
+        printf("Essa não é uma opção válida.\n");
         break;
     }
 
