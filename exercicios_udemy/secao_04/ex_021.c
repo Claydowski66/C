@@ -1,6 +1,6 @@
 /*Escreva um menu de opções abaixo. Leia a opção do usuário e execute a operação escolhida. Escreva uma mensagem de erro se a opção for inválida.
     1- Soma de 2 números.
-    2- Diferênça entre 2 números (Maior pelo menor).
+    2- Diferença entre 2 números (Maior pelo menor).
     3- Produto entre 2 números.
     4- Divisão entre 2 números. (O denominador não pode ser zero).
     Opção: */
@@ -17,7 +17,7 @@ int main(){
 
     printf("-------------------- Escolha a opcao: --------------------");
     printf("\n1- Soma de 2 números.");
-    printf("\n2- Diferênça entre 2 números.");
+    printf("\n2- Diferença entre 2 números.");
     printf("\n3- Produto entre 2 números.");
     printf("\n4- Divisão entre 2 números.");
     printf("\n----------------------------------------------------------");
@@ -41,7 +41,7 @@ int main(){
         break;
 
     case 2:
-        printf("Selecionado: Diferênça entre 2 números.");
+        printf("Selecionado: Diferença entre 2 números.");
 
         printf("\n\nDigite o primeiro valor: ");
         scanf("%f", &valor_1);
@@ -55,7 +55,7 @@ int main(){
             resultado = valor_2 - valor_1;
         }
 
-        printf("A diferênça entre %.2f e %.2f é: %.2f\n", valor_1, valor_2, resultado);
+        printf("A diferença entre %.2f e %.2f é: %.2f\n", valor_1, valor_2, resultado);
         break;
 
     case 3:
