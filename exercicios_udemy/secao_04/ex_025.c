@@ -36,7 +36,7 @@ void main(){
         printf("\nA raiz real é: %.1f\n", x1);
     }
     else{
-        printf("\nExistem duas raízes reais\n");
+        printf("\nExistem duas raízes reais.\n");
 
         x1 = (-b + sqrt(delta)) / (2 * a);
         x2 = (-b - sqrt(delta)) / (2 * a);
